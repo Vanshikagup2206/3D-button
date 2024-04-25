@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #eff3f7;
+}
+button{
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ebeef1;
+    border: none;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),
+                -10px -10px 10px -1px rgba(255,255,255,0.70);
+
+}
+button.button2{
+    box-shadow:inset 10px 10px 10px -1px rgba(10,99,169,0.16),
+               inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+button:hover{
+        box-shadow:inset 10px 10px 10px -1px rgba(10,99,169,0.16),
+                   inset -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+button.button2:hover{
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),
+                -10px -10px 10px -1px rgba(255,255,255,0.70);
+}
+.button1{
+    padding: 40px;
+    border-radius: 16px;
+}
+.button2{
+    padding: 40px;
+    border-radius: 50%;
+}
+.button3{
+    padding: 40px;
+    border-radius: 16px;
+}
